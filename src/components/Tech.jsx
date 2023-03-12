@@ -10,7 +10,7 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My growing list of used or learned</p>
+        <p className={styles.sectionSubText}>My growing list of used and learned</p>
         <h2 className={`${styles.sectionHeadText} mb-2`}>🛠 Technology</h2>
         <p className={`${styles.sectionSubText} mb-2`}>
           Balls are playable, click on them and rotate them!
