@@ -11,7 +11,10 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My growing list of used or learned</p>
-        <h2 className={`${styles.sectionHeadText} mb-10`}>Technology</h2>
+        <h2 className={`${styles.sectionHeadText} mb-2`}>Technology</h2>
+        <p className={`${styles.sectionSubText} mb-10`}>
+          Balls are playable, click on them and rotate them!
+        </p>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (

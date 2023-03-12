@@ -21,10 +21,14 @@ const Hero = () => {
             Developing Web App,
             <br class="sm:hidden" /> AI / ML and Fun Stuff.
           </p>
+          <h2 className={`${styles.sectionSubText} mt-2 text-white-100`}>
+            Things are "playable" on this page, try rotating the Mac (Since I am a Mac
+            user) below!
+          </h2>
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex pr-12 justify-end items-start">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 boarder-secondary flex justify-center items-start p-2">
             <motion.dev
