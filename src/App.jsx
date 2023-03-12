@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Footer,
 } from "./components";
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Tech />
         <Works />
         <Connect />
+        <Footer />
       </div>
     </BrowserRouter>
   );

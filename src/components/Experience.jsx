@@ -19,9 +19,10 @@ const ExperienceCard = ({ experience }) => (
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img
+          onClick={() => window.open(experience.source_code_link, "_blank")}
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[100%] h-[100%] object-contain"
         />
       </div>
     }
@@ -51,7 +52,8 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className={styles.sectionHeadText}>👩‍💻 Work Experience.</h2>
+        <p className={styles.sectionSubText}>Click on logo to access company's page.</p>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

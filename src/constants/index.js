@@ -8,17 +8,8 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -27,6 +18,20 @@ import {
   gitHub,
   resume,
   instagram,
+  rome2rio,
+  cra,
+  c,
+  aws,
+  csharp,
+  java,
+  mysql,
+  python,
+  cpanel,
+  wordpress,
+  twitter,
+  dijkstra,
+  rpg,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -89,184 +94,169 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "WordPress",
+    icon: wordpress,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Development Engineer Intern",
+    company_name: "Rome2rio, Melbourne",
+    icon: rome2rio,
+    iconBg: "#f83b92",
+    date: "Nov 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building a hotels and accommodation experience that helps users book the right hotel for their trip using both frontend (React, TypeScript) and backend (C#, .NET) technology.",
+      "Successfully launched Accommodation MVP as part of the pod team, contributing to various areas such as the header section, i18n translation system, implementing an initial filter button and improving user flow between calendar and room details form components.",
+      "Conducted a front-end accessibility audit and improved the codebase and discovered a critical bug during bug bashing session.",
+      "Leveraged React, JavaScript, TypeScript, and C# to develop the front-end and back-end of Accommodation MVP.",
+      "Maintained the product and released updates on a daily basis as part of the BAU Roaster, ensuring millions of users had a seamless experience.",
+      "Participated in brown bag sessions focused on learning new topics such as CI/CD, SEO, GitHub workflow, and System Design.",
+      "Demonstrated excellent communication skills by delivering a speech at the company's weekly all-hands meeting and hosting a Mid-OKR check-in with leaders of the company.",
     ],
+    source_code_link: "https://www.rome2rio.com/",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Junior Software Engineer & Data Analyst",
+    company_name: "CopyRich Academy (CRA), Singapore",
+    icon: cra,
+    iconBg: "#0b144b",
+    date: "Dec 2020 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Established an email marketing system deploying AWS Cloud services (EC2, SNS, SES) and managed over 2,000 contacts, solved the pre-existing problem of needing to rely on third-party email provider with content restriction",
+      "Analysed website traffic data using Google Analytics to quantify campaign results and developed a targeted marketing strategy based on the data in combination with Facebook ads and Facebook Pixel",
+      "Planned and structured the company's website, including landing pages and 5 product pages. Constantly improving the page design with customers’ needs in mind for their ease of use and navigation",
+      "Administered web server and database of the email system leveraging AWS services and cPanel & WHM, writing Cron Jobs and scripts to maintain the system.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    source_code_link: "https://copyrichacademy.com/",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Personal Portfolio website",
+    description: "The website you are currently viewing!",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Three.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "Tailwindcss",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/ZyLen888/3d-portfolio",
   },
   {
-    name: "Job IT",
+    name: "Subjectivity index based on tweets",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Leveraging supervised learning techniques to predict people’s subjectivity using their posts on Twitter",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Regression",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Decision Tree",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: twitter,
+    source_code_link: "https://github.com/ZyLen888/Subjectivity-Index-Twitter",
   },
   {
-    name: "Trip Guide",
+    name: "Dijkstra Algorithm: Solver for the Flow Free game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Applying learned knowledge about Dijkstra Algorithm to build a solver for the Flow Free Game",
     tags: [
       {
-        name: "nextjs",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Algorithm & Data Structure",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Dijkstra",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dijkstra,
+    source_code_link:
+      "https://github.com/ZyLen888/Dijkstra-Solver-for-the-Flow-Free-game",
+  },
+  {
+    name: "RPG Game",
+    description:
+      "A fantasy role-playing game in Java called ShadowDimension (inspired by Stranger Things)",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Object-Oriented Programming",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UML Diagram",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rpg,
+    source_code_link: "https://github.com/ZyLen888/Shadow-Dimension",
   },
 ];
 

@@ -29,20 +29,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About Me.</h2>
+        <h2 className={styles.sectionHeadText}>🙋‍♀️ About Me.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        <h2 className="font-bold text-white text-[20px] underline">Who I am</h2>
+        <h2 className="font-bold text-white text-[20px] underline">👀 Who I am</h2>
         <p>
           I am a penultimate year computer science student with a passion for
           <span className="font-bold"> software development</span>,
           <span className="font-bold"> artificial intelligence</span> and
           <span className="font-bold"> cloud services</span> .
         </p>
-        <h2 className="font-bold text-white text-[20px] underline">What do I know</h2>
+        <h2 className="font-bold text-white text-[20px] underline">🤔 What do I know</h2>
         <p>
           As an enthusiastic and adaptable learner, I possess practical knowledge in a
           variety of programming languages including{" "}
@@ -60,13 +60,20 @@ const About = () => {
           <span className="font-bold">AWS cloud services</span>.
         </p>
         <h2 className="font-bold text-white text-[20px] underline">
-          What I am doing now
+          💪 What I am doing now
         </h2>
         <p>
           Currently, I am focused on developing my skills in web development using
-          JavaScript, TypeScript and React for a Start-up Competition Project.
-          <br />I am also looking forward to explore the exciting world of AI with BioTech
-          projects in the near future.
+          JavaScript, TypeScript and React for a{" "}
+          <span className="font-bold">Start-up Competition Project</span>.
+          <br />I am also looking forward to explore the exciting world of AI with{" "}
+          <span className="font-bold">BioTech projects</span> in the near future. <br />
+          During my free time, I <span className="font-bold">draw comics</span>. You can
+          check out my arts instagram{" "}
+          <span className="underline">
+            <a href="https://www.instagram.com/meimi_er/">here</a>!
+          </span>
+          !
         </p>
         <br />
       </motion.p>

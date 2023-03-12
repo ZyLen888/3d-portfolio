@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import aws from "./tech/aws.png";
+import csharp from "./tech/csharp.png";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.png";
+import cpanel from "./tech/cpanel.png";
+import wordpress from "./tech/wordpress.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +42,14 @@ import linkedIn from "./linkedIn.svg";
 import instagram from "./instagram.svg";
 import gitHub from "./gitHub.svg";
 import resume from "./resume.svg";
+
+import rome2rio from "./rome2rio.svg";
+import cra from "./cra.svg";
+
+import twitter from "./twitter.png";
+import dijkstra from "./dijkstra.jpeg";
+import rpg from "./rpg.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -68,4 +84,18 @@ export {
   cloud,
   ai,
   software,
+  rome2rio,
+  cra,
+  c,
+  aws,
+  csharp,
+  java,
+  mysql,
+  python,
+  cpanel,
+  wordpress,
+  twitter,
+  dijkstra,
+  rpg,
+  portfolio,
 };
