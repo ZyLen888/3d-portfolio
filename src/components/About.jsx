@@ -65,12 +65,12 @@ const About = () => {
         <p>
           Currently, I am focused on developing my skills in web development using
           JavaScript, TypeScript and React for a Start-up Competition Project.
-          <br />I am also exploring the exciting world of AI with Python for a BioTech
-          project led by MBSI Brain Computer Interface Team.
+          <br />I am also looking forward to explore the exciting world of AI with BioTech
+          projects in the near future.
         </p>
         <br />
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((services, index) => (
           <ServiceCard key={services.title} index={index} {...services} />
         ))}
