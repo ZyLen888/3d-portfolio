@@ -1,7 +1,7 @@
 import {
-  mobile,
-  backend,
-  creator,
+  ai,
+  software,
+  cloud,
   web,
   javascript,
   typescript,
@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  linkedIn,
+  gitHub,
+  resume,
+  instagram,
 } from "../assets";
 
 export const navLinks = [
@@ -38,24 +42,28 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "connect",
+    title: "Connect",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Software Development",
+    icon: software,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Artificial Intelligence",
+    icon: ai,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Cloud Computing",
+    icon: cloud,
   },
 ];
 
@@ -262,4 +270,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialMedia = [
+  {
+    name: "LinkedIn",
+    image: linkedIn,
+    source_code_link: "https://www.linkedin.com/in/zhenliumeimiliu/",
+  },
+  {
+    name: "GitHub",
+    image: gitHub,
+    source_code_link: "https://github.com/ZyLen888",
+  },
+  {
+    name: "Instagram",
+    image: instagram,
+    source_code_link: "https://www.instagram.com/meimi_er/",
+  },
+];
+
+export { services, technologies, experiences, projects, socialMedia };
