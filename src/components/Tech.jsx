@@ -35,7 +35,7 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText} mb-2`}>🛠 Technology</h2>
         <p className={`${styles.sectionSubText} mb-2`}>
           {isMobile
-            ? "Due to mobile environment support on Three.js, the 3D interactive elements below have been hidden."
+            ? "Due to mobile environment support on Three.js, the 3D interactive elements below have been replaced."
             : "Balls are playable, click on them and rotate them!"}
         </p>
         <p className={`${styles.sectionSubText} mb-10`}>
