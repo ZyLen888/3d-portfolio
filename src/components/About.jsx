@@ -35,15 +35,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        <h2 className="font-bold text-white text-[20px] underline">👀 Who I am</h2>
-        <p>
+        <h2 className="font-bold text-white text-[20px] underline mb-2">👀 Who I am</h2>
+        <p className="mb-8">
           I am a penultimate year computer science student with a passion for
           <span className="font-bold"> software development</span>,
           <span className="font-bold"> artificial intelligence</span> and
           <span className="font-bold"> cloud services</span> .
         </p>
-        <h2 className="font-bold text-white text-[20px] underline">🤔 What do I know</h2>
-        <p>
+        <h2 className="font-bold text-white text-[20px] underline mb-2">
+          🤔 What do I know
+        </h2>
+        <p className="mb-3">
           As an enthusiastic and adaptable learner, I possess practical knowledge in a
           variety of programming languages including{" "}
           <span className="font-bold">Java</span>,{" "}
@@ -53,13 +55,13 @@ const About = () => {
           <span className="font-bold">TypeScript</span>,
           <span className="font-bold">C#</span>, and <span className="font-bold">C</span>.
         </p>
-        <p>
+        <p className="mb-8">
           My strong passion for data analytics, and cloud services has also led me to
           develop competent knowledge in{" "}
           <span className="font-bold">data analytics skills</span> and{" "}
           <span className="font-bold">AWS cloud services</span>.
         </p>
-        <h2 className="font-bold text-white text-[20px] underline">
+        <h2 className="font-bold text-white text-[20px] underline mb-2">
           💪 What I am doing now
         </h2>
         <p>
