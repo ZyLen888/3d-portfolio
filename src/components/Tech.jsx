@@ -43,12 +43,9 @@ const Tech = () => {
         </p>
       </motion.div>
 
-      <div className="mt-20 flex gap-20 justify-center">
+      <div className="mt-20 flex justify-center">
         {isMobile ? (
-          <div
-            className="mt-20 flex-wrap gap-10 justify-center"
-            style={{ display: "flex" }}
-          >
+          <div className="flex-wrap gap-10 justify-center" style={{ display: "flex" }}>
             {technologies.map((technology, index) => (
               <TechnologyCard key={`technology-${index}`} index={index} {...technology} />
             ))}

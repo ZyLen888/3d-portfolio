@@ -40,7 +40,7 @@ const Connect = () => {
         <p className={styles.sectionSubText}>Social Media</p>
         <h2 className={styles.sectionHeadText}>🤝 Connect with me.</h2>
       </motion.div>
-      <div className="mt-20 flex gap-20 justify-center">
+      <div className="mt-10 flex gap-10 justify-center">
         {socialMedia.map((socialMedia, index) => (
           <SocialMediaCard key={`socialMedia-${index}`} index={index} {...socialMedia} />
         ))}
